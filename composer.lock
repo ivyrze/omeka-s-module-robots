@@ -1,0 +1,31 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f2c528c6167407934ba42cf65f9beba3",
+    "packages": [
+        {
+            "name": "daniel-km/omeka-s-module-generic",
+            "version": "master",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.com/Daniel-KM/Omeka-S-module-Generic.git",
+                "reference": "master"
+            },
+            "type": "library"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "daniel-km/omeka-s-module-generic": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
