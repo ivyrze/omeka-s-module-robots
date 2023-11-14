@@ -5,7 +5,6 @@ namespace Robots;
 require_once __DIR__ . '/vendor/autoload.php';
 
 use Generic\AbstractModule;
-use Laminas\View\Renderer\PhpRenderer;
 
 class Module extends AbstractModule
 {
