@@ -4,11 +4,14 @@ namespace Robots;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-use Generic\AbstractModule;
+use Common\TraitModule;
+use Omeka\Module\AbstractModule;
 
 class Module extends AbstractModule
 {
     const NAMESPACE = __NAMESPACE__;
+
+    use TraitModule;
     
     /**
      * Get this module's configuration array.

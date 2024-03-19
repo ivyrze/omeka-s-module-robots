@@ -3,17 +3,22 @@
         {
             "type": "package",
             "package": {
-                "name": "daniel-km/omeka-s-module-generic",
+                "name": "daniel-km/omeka-s-module-common",
                 "version": "master",
                 "source": {
-                    "url": "https://gitlab.com/Daniel-KM/Omeka-S-module-Generic.git",
+                    "url": "https://gitlab.com/Daniel-KM/Omeka-S-module-Common.git",
                     "type": "git",
                     "reference": "master"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Common\\": [ "", "src/" ]
+                    }
                 }
             }
         }
     ],
     "require": {
-        "daniel-km/omeka-s-module-generic": "dev-master"
+        "daniel-km/omeka-s-module-common": "dev-master"
     }
 }
