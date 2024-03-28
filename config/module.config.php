@@ -5,7 +5,7 @@ namespace Robots;
 return [
     'controllers' => [
         'factories' => [
-            'Robots\Controller\Robots' => Service\Controller\RobotsControllerFactory::class
+            Controller\RobotsController::class => Service\Controller\RobotsControllerFactory::class
         ],
     ],
     'router' => [
@@ -16,7 +16,7 @@ return [
                     'route' => '/robots.txt',
                     'defaults' => [
                         '__NAMESPACE__' => 'Robots\Controller',
-                        'controller' => 'Robots',
+                        'controller' => Controller\RobotsController::class,
                         'action' => 'robots',
                     ],
                 ],
